@@ -151,7 +151,7 @@ aside ul {
 
 aside a {
   text-decoration: none;
-  color: #672a4a;
+  color: #4b2036;
   font-family: 'TikTok Sans',  sans-serif;
 }
 
@@ -163,5 +163,4 @@ aside a:hover {
 footer {
   text-align: center;
   padding: 1rem;
-  color: #201334;
 }

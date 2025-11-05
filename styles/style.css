@@ -1,0 +1,167 @@
+body {
+ margin: 0;
+ background: linear-gradient(135deg, #13172d, #f0b68f);
+ color: #ffffff;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+        }
+
+h1 {
+ text-align: center;
+ color:#ffb3c2;
+ font-family: 'Momo Signature', cursive;
+ font-style: normal;
+ margin-top: 50px;
+ font-size: 3em;
+ text-shadow: 2px 2px 4px rgba(92, 51, 81, 0.3);
+       }
+
+h2 {
+ color:#f3adc9;
+ font-family: "Pacifico", cursive;
+ font-style: normal;
+ margin-top: 30px;
+ font-size: 2em;
+        }
+
+p {
+ color:#ffe3ec;
+ font-family: "TikTok Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #d3adc9;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  color: #481938;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+main > section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  color: #e39ac4 ;
+}
+
+#hero + p {
+  margin-top: 1rem;
+}
+
+#hero img {
+  max-width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+}
+
+/* ESPECIFICAÇÕES */
+#especificacoes table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+#especificacoes th,
+#especificacoes td {
+  padding: 1rem;
+  border: 1px solid #fb93ca;
+  font-family: 'TikTok Sans', sans-serif;
+}
+
+#especificacoes thead {
+  background-color: #e28cad;
+}
+
+#especificacoes tbody tr:nth-child(even) {
+  background-color: #e28cad;
+}
+
+/* GALERIA */
+#galeria img {
+  max-width: 45%;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input[type="email"] {
+  padding: 0.8rem;
+  font-family: "Pacifico", cursive;
+  width: 250px;
+  border: 1px solid #ffbebe;
+  border-radius: 0.5rem;
+}
+
+.botao-comprar {
+  background-color: #e28cad;
+  font-family: "TikTok Sans", sans-serif;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-comprar:hover {
+  background-color: #ffa5c4;
+}
+
+/* ASIDE */
+aside {
+  background-color: #ffe3ec;
+  padding: 2rem;
+}
+
+aside h3 {
+  color: #4a0028;
+  font-family: 'TikTok Sans', sans-serif;
+  margin-bottom: 1rem;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside a {
+  text-decoration: none;
+  color: #672a4a;
+  font-family: 'TikTok Sans',  sans-serif;
+}
+
+aside a:hover {
+  color: #ffadc9;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #201334;
+}
